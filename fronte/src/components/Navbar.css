@@ -1,0 +1,40 @@
+.navbar {
+    background-color: #333;
+    padding: 1rem;
+    color : white;
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-item {
+    margin: 0 1rem;
+}
+
+.navbar-item a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar-item a:hover {
+    text-decoration: underline;
+}
+
+.logout-button {
+    background: none;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.logout-button:hover {
+    text-decoration: underline;
+}
